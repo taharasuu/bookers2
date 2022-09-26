@@ -33,19 +33,19 @@
           </li>
           <li>
             <%= link_to users_path , class: "nav-link text-light" do %>
-              <i class="fa-solid fa-users"></i>
+              <i class="fas fa-users"></i>
               <span>Users</span>
             <% end %>
           </li>
           <li>
             <%= link_to books_path , class: "nav-link text-light" do %>
-              <i class="fa-sharp fa-solid fa-book-open"></i>
+              <i class="fas fa-book-open"></i>
               <span>Books</span>
             <% end %>
           </li>
           <li>
             <%= link_to destroy_user_session_path , class: "nav-link text-light" , method: :delete do %>
-              <i class="fa-solid fa-right-from-bracket"></i>
+              <i class="fas fa-sign-out-alt"></i>
               <span>Log out</span>
             <% end %>
           </li>
@@ -58,20 +58,20 @@
           </li>
           <li>
             <%= link_to about_path , class: "nav-link text-light" do %>
-              <i class="fa-solid fa-link"></i>
+              <i class="fas fa-link"></i>
               <span>About</span>
             <% end %>
           </li>
           <li>
             <%= link_to new_user_registration_path , class: "nav-link text-light" do %>
-              <i class="fa-solid fa-user-plus"></i>
-              <span>sign_up</span>
+              <i class="fas fa-user-plus"></i>
+              <span>Sign up</span>
             <% end %>
           </li>
           <li>
             <%= link_to new_user_session_path , class: "nav-link text-light" do %>
-              <i class="fa-solid fa-right-to-bracket"></i>
-              <span>sign_in</span>
+              <i class="fas fa-sign-in-alt"></i>
+              <span>Log in</span>
             <% end %>
           </li>
         <% end %>
